@@ -4,19 +4,13 @@ Special Video / GIF 🎥
 <head>
     <title>Special Video 🎥💖</title>
     <style>
-        body {
-            background: linear-gradient(to right, #f6d365, #fda085);
-            text-align: center;
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            color: #fff;
-        }
-        h1 { margin-top: 40px; }
-        video { width: 300px; border-radius: 15px; margin: 20px 0; }
-        button { 
-            background-color: #ff4500; color: white; border: none;
-            padding: 15px 35px; font-size: 20px; border-radius: 12px; cursor: pointer; margin-top: 20px;
-        }
-        button:hover { background-color: #ff0000; }
+        body {background: linear-gradient(to right, #f6d365, #fda085);
+              text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #fff;}
+        h1 {margin-top: 40px;}
+        video {width: 300px; border-radius: 15px; margin: 20px 0;}
+        button {background-color: #ff4500; color: white; border: none;
+                padding: 15px 35px; font-size: 20px; border-radius: 12px; cursor: pointer; margin-top: 20px;}
+        button:hover {background-color: #ff0000;}
     </style>
 </head>
 <body>
@@ -26,7 +20,10 @@ Special Video / GIF 🎥
         <source src="special.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <button onclick="window.location.href='page8.html'">⬅️ Previous</button>
-    <button onclick="window.location.href='page10.html'">Next ➡️</button>
+
+    <!-- Navigation -->
+    <a href="page8.html"><button>⬅️ Previous</button></a>
+    <a href="page10.html"><button>Next ➡️</button></a>
+    <a href="index.html"><button>🏠 Home</button></a>
 </body>
 </html>
