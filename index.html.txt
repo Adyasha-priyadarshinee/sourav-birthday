@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sourav 🎂</title>
+</head>
+<body style="text-align: center; font-family: Arial, sans-serif; background: #fff0f5; color: #ff1493;">
+    <h1>💖 Happy Birthday Sourav 💖</h1>
+    <p style="font-size: 20px;">This is a special surprise website just for you!</p>
+    <p style="font-size: 18px;">With love, Khusi 💕</p>
+</body>
+</html>
