@@ -1,14 +1,44 @@
-<button onclick="window.location.href='page9.html'">⬅️ Previous</button>
-<button onclick="window.location.href='index.html'">🏠 Home</button>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forever Yours 💕</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #fff;
+        }
+        h1 { margin-top: 40px; font-size: 50px; }
+        p { font-size: 22px; margin: 10px 0; }
+        button { 
+            background-color: #ff1493; color: white; border: none;
+            padding: 20px 40px; font-size: 24px; border-radius: 15px; cursor: pointer; margin: 10px;
+        }
+        button:hover { background-color: #c71585; }
+    </style>
+</head>
+<body>
+    <h1>Forever Yours 💕💖</h1>
+    <p>Thank you for being the best part of my life 💞✨💘</p>
 
+    <!-- Surprise button -->
+    <button id="surpriseBtn">Click for Surprise! 💖✨</button>
+    <p id="surpriseMsg" style="display:none; font-size:24px; margin-top:20px;">
+      I LOVE YOU FOREVER, SOURAV! 🥰💞💖🌸
+    </p>
 
-<p id="surprise" style="display:none; font-size:24px; margin-top:20px;">
-  I LOVE YOU FOREVER, SOURAV! 🥰💞💖🌸
-</p>
+    <!-- Navigation buttons -->
+    <br>
+    <button onclick="window.location.href='page9.html'">⬅️ Previous</button>
+    <button onclick="window.location.href='index.html'">🏠 Home</button>
 
-<script>
-function showMessage() {
-  document.getElementById('surprise').style.display = 'block';
-}
-</script>
-
+    <!-- Script -->
+    <script>
+        // Show surprise message without alert()
+        document.getElementById('surpriseBtn').onclick = function() {
+            document.getElementById('surpriseMsg').style.display = 'block';
+        };
+    </script>
+</body>
+</html>
